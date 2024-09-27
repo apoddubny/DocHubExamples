@@ -21,9 +21,12 @@
 8. [Примеры запросов JSONata](src/jsonata_query_examples)
 9. [Пример структуры репозитория для управления архитектурой](src/repository_structure_example)
 10. [Пример формирования L1 контекста](src/l1_drilldown)
-10. [Пример модификации метамодели контекста](src/new_links_format)
 11. [Примеры для кликабельных линков и пользовательского DSL](src/customdsl)
-
+12. [Развертывания DocHub](https://github.com/cu3blukekc/SwampHub)
+13. [Модификация метамодели для описания связей в собственном формате](src/new_links_format)
+14. [Entity Relationship диаграммы и диаграммы классов](src/DynamicEntityRelationshipDiagrams)
+15. [Динамическое изменение группировки компонент в представлении контекста](src/DynamicChangeOfContextGrouping)
+16. [Репозиторий чатбота корпоративного ИИ](src/aichatbot)
 
 ## Разворачивание
 

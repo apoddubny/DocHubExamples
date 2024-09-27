@@ -1,0 +1,38 @@
+entities:
+
+  erdiagram:
+    title: ER диаграммы
+    description: ER диаграммы
+    presentations:
+      blank:
+        type: plantuml
+        title: Диаграмма классов
+        template: Templates/blank.puml
+        source: >
+          (
+             $eval($.functions.get_er_diagram_dataset,{"AppDataId": $params.id, "Datalake": $});
+          )
+      format:
+        type: plantuml
+        title: Диаграмма классов в представлении 1С
+        template: Templates/format.puml
+        source: >
+          (
+              $eval($.functions.get_er_diagram_dataset,{"AppDataId": $params.id, "Datalake": $});             
+          )
+      er_format:
+        type: plantuml
+        title: ER диаграмма
+        template: Templates/er_format.puml
+        source: >
+          (
+              $eval($.functions.get_er_diagram_dataset,{"AppDataId": $params.id, "Datalake": $});             
+          )
+      er_format_v2:
+        type: plantuml
+        title: ER диаграмма (v2)
+        template: Templates/er_format_v2.puml
+        source: >
+          (
+              $eval($.functions.get_er_diagram_dataset,{"AppDataId": $params.id, "Datalake": $});             
+          )
